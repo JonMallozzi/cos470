@@ -3,9 +3,9 @@
 1. My name is Jon Mallozzi and my email is jonathan.mallozzi@maine.edu
 
 1. * **programming experience:**
-        * Lots of Java including gui and backend work
+        * Lots of Java - including gui and backend work
         * Python - development and math computation work
-        * html/css/js/react web dev
+        * html/css/js/react - web dev
         * PHP - backend work
         * C++ - Main language I use when not working on school work
         * SQL
