@@ -1,7 +1,6 @@
 # About 
 
 1. My name is Jon Mallozzi and my email is jonathan.mallozzi@maine.edu
-<br/>
 
 1. * **programming experience:**
         * Lots of Java including gui and backend work
