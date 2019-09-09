@@ -15,11 +15,24 @@ namespace Assignment1{
             
             //using a StopWatch to see how long it takes for my algorithm to run
            var watch = System.Diagnostics.Stopwatch.StartNew();
+
+           //variables to hold the statistic printed out after the computation 
+           int dollarWordCount = 0;
+           string highestValueWord = "";
+           
+           string shortestDollarWord = "tempString";
+           string longestDollarWord = "";
+           
+           //hold the value of the largest word
+           int maxCost = 0;
+           
             
-            using(FileStream readStream = File.OpenRead(@"/Users/blaze/becoming the code god/cos470/Assignment1/words.txt")){
+           //files must be in the same directory as Program.cs
+           //and set up to be Idisposeable 
+            using(FileStream readStream = File.OpenRead(@"words.txt")){
                 using (StreamReader reader = new StreamReader(readStream)){
                     using (FileStream writeStream =
-                        File.OpenWrite(@"/Users/blaze/becoming the code god/cos470/Assignment1/DollarWords.txt")){
+                        File.OpenWrite(@"DollarWords.txt")){
                         using (StreamWriter writer = new StreamWriter(writeStream)){
 
                             while (!reader.EndOfStream){
@@ -38,14 +51,23 @@ namespace Assignment1{
                                     if (char.IsLetter(currentChar)){
                                         total += (int) currentChar - 96;
                                     } 
-
-                                    if (total > 100){
-                                         break;   
-                                    }
                                 }
 
+                                  if (total > maxCost){
+                                      maxCost = total;
+                                      highestValueWord = line;
+                                  }
+
                                 if (total == 100){
+                                    
+                                    dollarWordCount++;
                                     writer.WriteLine(line);
+
+                                    if (line.Length > longestDollarWord.Length){
+                                        longestDollarWord = line;
+                                    }else if (line.Length < shortestDollarWord.Length){
+                                        shortestDollarWord = line;
+                                    }       
                                 }
                             }
                           }
@@ -56,6 +78,10 @@ namespace Assignment1{
 
             watch.Stop();
             Console.WriteLine($"Total Execution Time: {watch.ElapsedMilliseconds} ms");
+            Console.WriteLine($"Number of dollar words: {dollarWordCount}");
+            Console.WriteLine($"The most expensive word is {highestValueWord} which cost {maxCost}");
+            Console.WriteLine($"Longest dollar word is {longestDollarWord}");
+            Console.WriteLine($"Shortest dollar word is {shortestDollarWord}");
             
         }
     }
