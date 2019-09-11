@@ -40,7 +40,7 @@ namespace Assignment1{
                                 string line = reader.ReadLine();
                                 int total = 0;
                                
-                                if (line.Length >= 5){
+                                //if (line.Length >= 5){
                                   
                                   //making the string all lower case so I only have to worry about
                                   //lower case letters in my calculation
@@ -49,7 +49,7 @@ namespace Assignment1{
                                   foreach (var currentChar in lowerLine) {
 
                                     if (char.IsLetter(currentChar)){
-                                        total += (int) currentChar - 96;
+                                        total +=  currentChar - 96;
                                     } 
                                 }
 
@@ -69,7 +69,7 @@ namespace Assignment1{
                                         shortestDollarWord = line;
                                     }       
                                 }
-                            }
+                            //}
                           }
                        }
                    }
@@ -86,3 +86,4 @@ namespace Assignment1{
         }
     }
 }
+

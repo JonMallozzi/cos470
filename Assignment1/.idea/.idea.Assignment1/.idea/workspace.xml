@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3004500b-e288-4411-bace-b3fc33c92578" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/Assignment1.dll" afterDir="false" />
@@ -18,31 +16,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="295">
+              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
               <folding>
-                <marker date="1568047979366" expanded="true" signature="0:102" ph="/* ... */" />
-                <marker date="1568047979366" expanded="true" signature="110:134" ph="..." />
-                <marker date="1568047979366" expanded="true" signature="176:3446" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="218:3444" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="767:862" ph="/* files must be in the same directory as Program.cs ... */" />
-                <marker date="1568047979366" expanded="true" signature="933:3438" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="1009:2963" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="1122:2950" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="1207:2933" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="1265:2912" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="1496:2887" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="1567:1704" ph="/* making the string all lower case so I only have to worry about ... */" />
-                <marker date="1568047979366" expanded="true" signature="1848:2859" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="1918:2030" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="2088:2243" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="2294:2829" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="2528:2633" ph="{...}" />
-                <marker date="1568047979366" expanded="true" signature="2682:2788" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="0:102" ph="/* Jon Mallozzi ... */" />
+                <marker date="1568159936080" expanded="true" signature="110:134" ph="..." />
+                <marker date="1568159936080" expanded="true" signature="157:3478" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="176:3476" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="218:3470" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="767:862" ph="/* files must be in the same directory as Program.cs ... */" />
+                <marker date="1568159936080" expanded="true" signature="933:2995" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="1009:2982" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="1122:2965" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="1207:2944" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="1265:2919" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="1475:1706" ph="/* if (line.Length &gt;= 5){ ... */" />
+                <marker date="1568159936080" expanded="true" signature="1850:2062" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="1920:2027" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="2118:2273" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="2324:2859" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="2558:2663" ph="{...}" />
+                <marker date="1568159936080" expanded="true" signature="2712:2818" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/words.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="4530825">
               <caret line="302055" column="10" selection-start-line="302055" selection-end-line="302055" selection-end-column="10" />
             </state>
           </provider>
@@ -92,18 +90,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Assignment1" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Assignment1" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assignment1" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -168,12 +161,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567736455878</updated>
-      <workItem from="1567736457211" duration="10587000" />
+      <workItem from="1567736457211" duration="10952000" />
+      <workItem from="1568124589988" duration="5229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10587000" />
+    <option name="totallyTimeSpent" value="16181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -186,39 +180,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="36" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32885906" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -231,37 +226,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/words.txt">
+    <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="302055" column="10" selection-start-line="302055" selection-end-line="302055" selection-end-column="10" />
+        <state relative-caret-position="295">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding>
+            <marker date="1568159936080" expanded="true" signature="0:102" ph="/* Jon Mallozzi ... */" />
+            <marker date="1568159936080" expanded="true" signature="110:134" ph="..." />
+            <marker date="1568159936080" expanded="true" signature="157:3478" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="176:3476" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="218:3470" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="767:862" ph="/* files must be in the same directory as Program.cs ... */" />
+            <marker date="1568159936080" expanded="true" signature="933:2995" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="1009:2982" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="1122:2965" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="1207:2944" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="1265:2919" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="1475:1706" ph="/* if (line.Length &gt;= 5){ ... */" />
+            <marker date="1568159936080" expanded="true" signature="1850:2062" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="1920:2027" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="2118:2273" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="2324:2859" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="2558:2663" ph="{...}" />
+            <marker date="1568159936080" expanded="true" signature="2712:2818" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
+    <entry file="file://$PROJECT_DIR$/words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <marker date="1568047979366" expanded="true" signature="0:102" ph="/* ... */" />
-            <marker date="1568047979366" expanded="true" signature="110:134" ph="..." />
-            <marker date="1568047979366" expanded="true" signature="176:3446" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="218:3444" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="767:862" ph="/* files must be in the same directory as Program.cs ... */" />
-            <marker date="1568047979366" expanded="true" signature="933:3438" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="1009:2963" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="1122:2950" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="1207:2933" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="1265:2912" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="1496:2887" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="1567:1704" ph="/* making the string all lower case so I only have to worry about ... */" />
-            <marker date="1568047979366" expanded="true" signature="1848:2859" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="1918:2030" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="2088:2243" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="2294:2829" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="2528:2633" ph="{...}" />
-            <marker date="1568047979366" expanded="true" signature="2682:2788" ph="{...}" />
-          </folding>
+        <state relative-caret-position="4530825">
+          <caret line="302055" column="10" selection-start-line="302055" selection-end-line="302055" selection-end-column="10" />
         </state>
       </provider>
     </entry>
