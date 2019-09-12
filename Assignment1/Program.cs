@@ -6,83 +6,88 @@
 ****************/
 
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Xml;
+
 
 namespace Assignment1{
     class Program{
+        
+        //A function to open the file and give a list of words from the file
+        public static List<string> createWordList(string filePath) {
+          using (FileStream readStream = File.OpenRead(filePath)) {
+              using (StreamReader reader = new StreamReader(readStream)) {
+                  return reader.ReadToEnd().Split().ToList();
+              }
+          }
+        }
+
+        public static int wordCost(string word) {
+            return word.ToLower().Where(currChar => char.IsLetter(currChar)).Sum(n => n - 96);
+        }
+
+        public static List<string> dollarWords(List<string> words) {
+          return words.Where((a => wordCost(a) == 100 )).ToList();
+        }
+
+        //writes to DollarWords.txt in same directory as the program
+        public static void writeDollarWordsToFile(List<string> dollarWord) {
+            using (FileStream writeStream =
+                File.OpenWrite(@"DollarWords.txt")) {
+                using (StreamWriter writer = new StreamWriter(writeStream)) {
+                    writer.WriteLine(string.Join(Environment.NewLine , dollarWord));
+                }
+            }
+        }
+
+        public static string highestCost(List<string> words) {
+            return words.Aggregate("", (maxWord, currWord) => wordCost(maxWord) > wordCost(currWord) ? maxWord : currWord);
+        }
+
+        //one function to find the longest word so that code can be reused
+        public static string longestWord(List<string> words) {
+            return words.OrderBy(n => n.Length).LastOrDefault();
+        }
+
+        public static string shortestWord(List<string> words) {         
+           return words.OrderBy(n => n.Length).FirstOrDefault();
+        }
+
+        public static string allWordsOfShortestLen(List<string> words) {
+            return string.Join(", ", words.Where(w => w.Length == shortestWord(words).Length));
+        }
+        
+        public static string allWordsOfLongesttLen(List<string> words) {
+            return string.Join(", ", words.Where(w => w.Length == longestWord(words).Length));
+        }
+        
 
         static void Main(string[] args){
             
-            //using a StopWatch to see how long it takes for my algorithm to run
-           var watch = System.Diagnostics.Stopwatch.StartNew();
-
-           //variables to hold the statistic printed out after the computation 
-           int dollarWordCount = 0;
-           string highestValueWord = "";
+         //using a StopWatch to see how long it takes for my algorithm to run
+         var watch = System.Diagnostics.Stopwatch.StartNew();
            
-           string shortestDollarWord = "tempString";
-           string longestDollarWord = "";
-           
-           //hold the value of the largest word
-           int maxCost = 0;
-           
-            
-           //files must be in the same directory as Program.cs
-           //and set up to be Idisposeable 
-            using(FileStream readStream = File.OpenRead(@"words.txt")){
-                using (StreamReader reader = new StreamReader(readStream)){
-                    using (FileStream writeStream =
-                        File.OpenWrite(@"DollarWords.txt")){
-                        using (StreamWriter writer = new StreamWriter(writeStream)){
+         List<string> words = createWordList(@"words.txt");
+         List<string> dollarWord = dollarWords(words);
+         writeDollarWordsToFile(dollarWord);
+         Console.WriteLine($"Number of dollar words: {dollarWord.Count}");
+         Console.WriteLine($"Longest  word from input file is {longestWord(words)}");
+         
+         //Storing the most expensive word to cut out a pass on the words file
+         string maxCost = highestCost(words); 
+         
+         Console.WriteLine($"The most expensive word {maxCost} which cost {wordCost(maxCost)}");
+         Console.WriteLine($"Longest dollar word is {longestWord(dollarWord)}");
+         Console.WriteLine($"Shortest dollar word is {shortestWord(dollarWord)}");
+         Console.WriteLine($"All dollar words of shortest length {allWordsOfShortestLen(dollarWord)}");
+         Console.WriteLine($"All dollar words of longest length {allWordsOfLongesttLen(dollarWord)}"); 
+         
+         watch.Stop();
+         Console.WriteLine($"Total Execution Time: {watch.ElapsedMilliseconds} ms");
 
-                            while (!reader.EndOfStream){
-                               
-                                string line = reader.ReadLine();
-                                int total = 0;
-                               
-                                //if (line.Length >= 5){
-                                  
-                                  //making the string all lower case so I only have to worry about
-                                  //lower case letters in my calculation
-                                  string lowerLine = line.ToLower();
-
-                                  foreach (var currentChar in lowerLine) {
-
-                                    if (char.IsLetter(currentChar)){
-                                        total +=  currentChar - 96;
-                                    } 
-                                }
-
-                                  if (total > maxCost){
-                                      maxCost = total;
-                                      highestValueWord = line;
-                                  }
-
-                                if (total == 100){
-                                    
-                                    dollarWordCount++;
-                                    writer.WriteLine(line);
-
-                                    if (line.Length > longestDollarWord.Length){
-                                        longestDollarWord = line;
-                                    }else if (line.Length < shortestDollarWord.Length){
-                                        shortestDollarWord = line;
-                                    }       
-                                }
-                            //}
-                          }
-                       }
-                   }
-               }
-           }
-
-            watch.Stop();
-            Console.WriteLine($"Total Execution Time: {watch.ElapsedMilliseconds} ms");
-            Console.WriteLine($"Number of dollar words: {dollarWordCount}");
-            Console.WriteLine($"The most expensive word is {highestValueWord} which cost {maxCost}");
-            Console.WriteLine($"Longest dollar word is {longestDollarWord}");
-            Console.WriteLine($"Shortest dollar word is {shortestDollarWord}");
-            
         }
     }
 }

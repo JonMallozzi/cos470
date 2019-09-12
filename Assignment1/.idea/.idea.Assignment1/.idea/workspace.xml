@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3004500b-e288-4411-bace-b3fc33c92578" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/Assignment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/Assignment1.dll" afterDir="false" />
@@ -20,37 +21,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+            <state relative-caret-position="-755">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
-                <marker date="1568159936080" expanded="true" signature="0:102" ph="/* Jon Mallozzi ... */" />
-                <marker date="1568159936080" expanded="true" signature="110:134" ph="..." />
-                <marker date="1568159936080" expanded="true" signature="157:3478" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="176:3476" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="218:3470" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="767:862" ph="/* files must be in the same directory as Program.cs ... */" />
-                <marker date="1568159936080" expanded="true" signature="933:2995" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="1009:2982" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="1122:2965" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="1207:2944" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="1265:2919" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="1475:1706" ph="/* if (line.Length &gt;= 5){ ... */" />
-                <marker date="1568159936080" expanded="true" signature="1850:2062" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="1920:2027" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="2118:2273" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="2324:2859" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="2558:2663" ph="{...}" />
-                <marker date="1568159936080" expanded="true" signature="2712:2818" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="0:102" ph="/* Jon Mallozzi ... */" />
+                <marker date="1568251754335" expanded="true" signature="110:187" ph="..." />
+                <marker date="1568251754335" expanded="true" signature="260:3648" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="279:3646" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="434:678" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="502:668" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="577:656" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="728:834" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="903:981" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="1127:1431" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="1225:1421" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="1303:1407" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="1494:1629" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="1767:1843" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="1907:1992" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="2065:2172" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="2253:2359" ph="{...}" />
+                <marker date="1568251754335" expanded="true" signature="2409:3640" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DollarWords.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1833" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/words.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4530825">
-              <caret line="302055" column="10" selection-start-line="302055" selection-end-line="302055" selection-end-column="10" />
+            <state relative-caret-position="4230">
+              <caret line="282" column="10" selection-start-line="282" selection-end-line="282" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -63,6 +71,11 @@
       <find>zzz</find>
       <find>congress</find>
       <find>pneumonoul</find>
+      <find>buzzy</find>
+      <find>abactinally</find>
+      <find>shadowing</find>
+      <find>Acipenseroidei</find>
+      <find>abatements</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -79,8 +92,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="y" value="36" />
+    <option name="x" value="22" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
@@ -97,6 +110,11 @@
           <expand>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Assignment1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Assignment1" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assignment1" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -162,12 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567736455878</updated>
       <workItem from="1567736457211" duration="10952000" />
-      <workItem from="1568124589988" duration="5229000" />
+      <workItem from="1568124589988" duration="20506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16181000" />
+    <option name="totallyTimeSpent" value="31458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -179,17 +197,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="36" width="1400" height="837" extended-state="0" />
+    <frame x="22" y="23" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -226,37 +244,42 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Program.cs">
+    <entry file="file://$PROJECT_DIR$/words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
-          <folding>
-            <marker date="1568159936080" expanded="true" signature="0:102" ph="/* Jon Mallozzi ... */" />
-            <marker date="1568159936080" expanded="true" signature="110:134" ph="..." />
-            <marker date="1568159936080" expanded="true" signature="157:3478" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="176:3476" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="218:3470" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="767:862" ph="/* files must be in the same directory as Program.cs ... */" />
-            <marker date="1568159936080" expanded="true" signature="933:2995" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="1009:2982" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="1122:2965" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="1207:2944" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="1265:2919" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="1475:1706" ph="/* if (line.Length &gt;= 5){ ... */" />
-            <marker date="1568159936080" expanded="true" signature="1850:2062" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="1920:2027" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="2118:2273" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="2324:2859" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="2558:2663" ph="{...}" />
-            <marker date="1568159936080" expanded="true" signature="2712:2818" ph="{...}" />
-          </folding>
+        <state relative-caret-position="4230">
+          <caret line="282" column="10" selection-start-line="282" selection-end-line="282" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/words.txt">
+    <entry file="file://$PROJECT_DIR$/DollarWords.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4530825">
-          <caret line="302055" column="10" selection-start-line="302055" selection-end-line="302055" selection-end-column="10" />
+        <state relative-caret-position="-1833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-755">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1568251754335" expanded="true" signature="0:102" ph="/* Jon Mallozzi ... */" />
+            <marker date="1568251754335" expanded="true" signature="110:187" ph="..." />
+            <marker date="1568251754335" expanded="true" signature="260:3648" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="279:3646" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="434:678" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="502:668" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="577:656" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="728:834" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="903:981" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="1127:1431" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="1225:1421" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="1303:1407" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="1494:1629" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="1767:1843" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="1907:1992" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="2065:2172" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="2253:2359" ph="{...}" />
+            <marker date="1568251754335" expanded="true" signature="2409:3640" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
