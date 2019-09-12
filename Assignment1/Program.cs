@@ -23,7 +23,7 @@ namespace Assignment1{
         }
 
         public static int wordCost(string word) {
-            return word.ToLower().Where(char.IsLetter(currChar))).Sum(n => n - 96);
+            return word.ToLower().Where(char.IsLetter).Sum(n => n - 96);
         }
 
         public static List<string> dollarWords(List<string> words) {
