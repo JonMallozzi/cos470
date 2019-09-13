@@ -7,6 +7,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 
@@ -68,7 +69,7 @@ namespace Assignment1{
          var watch = System.Diagnostics.Stopwatch.StartNew();
            
          List<string> words = createWordList(@"words.txt");
-         List<string> dollarWord = dollarWords(words);
+         List<string> dollarWord = dollarWords(words);     
          writeDollarWordsToFile(dollarWord);
          Console.WriteLine($"Number of dollar words: {dollarWord.Count}");
          Console.WriteLine($"Longest  word from input file is {longestWord(words)}");
@@ -85,7 +86,7 @@ namespace Assignment1{
          watch.Stop();
          Console.WriteLine($"Total Execution Time: {watch.ElapsedMilliseconds} ms");
 
-        }
+        } 
     }
 }
 
