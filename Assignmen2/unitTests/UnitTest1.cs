@@ -27,11 +27,5 @@ namespace Test {
         public static void specialCharWordCost() {
             Assert.AreEqual(71,Program.wordCost("High85832901&*@3","St"));
         } 
-        
-        
-
-        
-
-        
     }
 }

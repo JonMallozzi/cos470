@@ -5,8 +5,6 @@
 * Assignment2  *
 ****************/
 
-
-
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -16,7 +14,6 @@ using System.Linq;
 namespace Assignment2 {
     
    public class Program {
-
 
         public static string webJsonReq(config configData) {
             
