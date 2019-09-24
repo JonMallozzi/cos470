@@ -1,6 +1,6 @@
 .DS_Store
 */bin/Debug/netcoreapp2.1
-*/.idea/.idea.Assignment1
+*/.idea/*
 */obj
 */*.csproj
 */*.sln.DotSettings.user
