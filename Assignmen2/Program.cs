@@ -1,9 +1,17 @@
-﻿using System;
+﻿/***************
+* Jon Mallozzi *
+* 9/23/19      *
+* COS 470      *
+* Assignment2  *
+****************/
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Web;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Assignment2 {
     
