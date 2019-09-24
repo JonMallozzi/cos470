@@ -96,4 +96,10 @@ namespace Assignment2 {
 
         }
     }
+   // 9/24 notes 
+   // use interface instead of class so you only have to change the interface instead of the code base
+   // dependancy injection
+   // 
+   
+   
 }
