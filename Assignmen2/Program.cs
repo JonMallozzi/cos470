@@ -56,11 +56,19 @@ namespace Assignment2 {
        }
        
        //prints out the all of the matching addresses
-       public static void results(List<attributeField> resultList) {
+       public static void results(List<attributeField> resultList , config configData) {
+           
+           Console.WriteLine("All matching cost address for " 
+                                    + configData.configJason()["municipality"] 
+                                    + " or the first set of matching addresses if the municipality has over 5000 addresses");
            
            //loops through the list because its type name and not string
            foreach (var x in resultList) {
-               Console.WriteLine("The address " + x.attributes.STREETNAME + " " + x.attributes.SUFFIX + " cost matched it's address of " + x.attributes.ADDRESS_NUMBER);
+               Console.WriteLine("The address " 
+                                 + x.attributes.STREETNAME 
+                                 + " " + x.attributes.SUFFIX 
+                                 + " cost matched it's address of " 
+                                 + x.attributes.ADDRESS_NUMBER);
            }
        }
         
@@ -79,7 +87,7 @@ namespace Assignment2 {
           List<attributeField> matchingAdresses = costsThatMatch(jsonData);
           
           //printing the results
-          results(matchingAdresses);
+          results(matchingAdresses, configData);
 
         }
     }
