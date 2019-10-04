@@ -1,4 +1,11 @@
-﻿using System;
+﻿/***************
+* Jon Mallozzi *
+* 10/3/19      *
+* COS 470      *
+* Assignment 3 *
+****************/
+
+using System;
 using System.Collections.Generic;
 
 namespace Assignment3 {

@@ -1,7 +1,9 @@
 using  Newtonsoft.Json;
 
 namespace Assignment3 {
-    //json stuff that needs to be moved to another class
+    
+    //the class the deserializes the json data into a json object Array with the timestamp, lat, and long
+    //of each data point
     public class jsonDeserializer {
         public static locationData deserializing(string jsonData) {
 
