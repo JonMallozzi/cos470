@@ -11,7 +11,11 @@ Assignment3/libraryTests/Properties/
 Assignment3/libraryTests/bin/
 Assignment3/libraryTests/obj/
 Assignment3/libraryTests/libraryTests.csproj
-Assignment3/libraryTests/packages.config
+Assignment3/realwebthing/wwwroot/
+Assignment3/realwebthing/bin/
+Assignment3/realwebthing/obj/
+Assignment3/realwebthing/realwebthing.csproj
+Assignment3/realwebth
 */packages/
 */packages.config
 */Properties

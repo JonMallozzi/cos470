@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using NUnit.Framework;
 using Assignment3;
  
@@ -80,9 +81,13 @@ namespace libraryTests {
     ""altitude"" : -5,
     ""verticalAccuracy"" : 6
   }
-]}";    
-        
-  }
+]}";
+
+   //indexes to generate the keys in the data dictionaries 
+   public static int index = 0;
+   public static int metIndex1 = 0;
+   public static int metIndex2 = 0;
+    }
 
     [TestFixture]
     public class Tests {
@@ -101,16 +106,20 @@ namespace libraryTests {
         [Test]
         public void dateMatchingtTest() {
           Assert.AreEqual(metCheckingLogic.wherewasIOn(new DateTime(2013,12,17,18,38,55,688), 
-              jsonDeserializer.deserializing(testJson.data1))[3].latitudeE7,
+              jsonDeserializer.deserializing(testJson.data1).locations
+                .ToDictionary(id => testJson.index++, dataPoint => dataPoint))[3].latitudeE7,
             435916775 );
         }
 
         [Test]
         public void haveWeMetTest() {
-          Assert.AreEqual(metCheckingLogic.haveWeMet(jsonDeserializer.deserializing(testJson.data1),
-            jsonDeserializer.deserializing(testJson.data2))[1].timestampMs,1387305535688);
+          Assert.AreEqual(metCheckingLogic.haveWeMet(
+            jsonDeserializer.deserializing(testJson.data1)
+              .locations.ToDictionary(id => testJson.metIndex1++, dataPoint => dataPoint),
+            jsonDeserializer.deserializing(testJson.data2)
+              .locations.ToDictionary(id => testJson.metIndex2++, dataPoint => dataPoint),
+            1,1
+            )[0].timestampMs,1387305539616);
         }
-        
-        
     }
 }
