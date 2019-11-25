@@ -10,6 +10,8 @@ namespace Assignment3 {
             string json = jsonData;
 
             var model = JsonConvert.DeserializeObject<locationData>(json);
+            
+            model.locations[0].
 
             return model;
         }
