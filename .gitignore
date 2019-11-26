@@ -6,7 +6,6 @@
 */obj
 */*.sln.DotSettings.user
 ./.DS_Store
-Assignment3/UnitTests/Properties/
 Assignment3/UnitTests/bin/
 Assignment3/UnitTests/obj/
 Assignment3/realwebthing/wwwroot/
@@ -14,6 +13,5 @@ Assignment3/realwebthing/bin/
 Assignment3/realwebthing/obj/
 */packages/
 */packages.config
-*/Properties
 chess/
 apiController.cs
