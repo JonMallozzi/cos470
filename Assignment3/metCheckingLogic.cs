@@ -44,22 +44,19 @@ namespace Assignment3 {
         public static List<jsonDeserializer.locationPoints> haveWeMet(
             Dictionary<int,jsonDeserializer.locationPoints> person1,
             Dictionary<int,jsonDeserializer.locationPoints> person2,
-            int minuteOffset,
-            int meterOffset) {
+            int milisecOffset,
+            int distanceOffset) {
 
             //the list that is being returned when all locationPoints are added to it
             List<jsonDeserializer.locationPoints> matchingPoints = new List<jsonDeserializer.locationPoints>();
-            
-            //creating the offsets
-            int timeOffset = minuteOffset * 60000;
-            int distanceOffset = meterOffset * 8000;
+           
 
             int i = 0; //person 1 iterator 
             int j = 0; //person 2 iterator 
             while (true) {
 
                 if ( Math.Abs(person1[person1.Count - 1 - i].timestampMs 
-                              - person2[person2.Count - 1 - j].timestampMs) <= timeOffset
+                              - person2[person2.Count - 1 - j].timestampMs) <= milisecOffset
                     && Math.Abs(person1[person1.Count - 1 - i].latitudeE7  
                                 - person2[person2.Count - 1 - j].latitudeE7 ) <= distanceOffset 
                     && Math.Abs(person1[person1.Count - 1 - i].longitudeE7 
