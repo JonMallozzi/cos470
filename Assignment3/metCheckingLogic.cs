@@ -51,7 +51,7 @@ namespace Assignment3 {
             List<jsonDeserializer.locationPoints> matchingPoints = new List<jsonDeserializer.locationPoints>();
             
             //creating the offsets
-            int timeOffset = minuteOffset * 40000;
+            int timeOffset = minuteOffset * 60000;
             int distanceOffset = meterOffset * 8000;
 
             int i = 0; //person 1 iterator 
@@ -61,9 +61,9 @@ namespace Assignment3 {
                 if ( Math.Abs(person1[person1.Count - 1 - i].timestampMs 
                               - person2[person2.Count - 1 - j].timestampMs) <= timeOffset
                     && Math.Abs(person1[person1.Count - 1 - i].latitudeE7  
-                                - person2[person2.Count - 1 - i].latitudeE7 ) <= distanceOffset 
+                                - person2[person2.Count - 1 - j].latitudeE7 ) <= distanceOffset 
                     && Math.Abs(person1[person1.Count - 1 - i].longitudeE7 
-                                - person2[person2.Count - 1 - i].longitudeE7) <= distanceOffset
+                                - person2[person2.Count - 1 - j].longitudeE7) <= distanceOffset
                 ) {
                     
                     matchingPoints.Add(person1[person1.Count - 1 - i]);
@@ -73,7 +73,7 @@ namespace Assignment3 {
                 }
                 //since google orders all data points by the timestamp, the algorithm has to catch up
                 //the points of data of each person to be close if they are falling behind 
-                else if (person1[person1.Count - 1 - i].timestampMs - timeOffset >
+                else if (person1[person1.Count - 1 - i].timestampMs  >
                         person2[person2.Count - 1 - j].timestampMs) {
                     i++;
                 }else {
