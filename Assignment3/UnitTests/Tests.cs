@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
 using NUnit.Framework;
+using System;
+using System.Linq;
 using Assignment3;
  
-namespace libraryTests {
+namespace UnitTests {
     
     //test jason data 
     public class testJson {

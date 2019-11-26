@@ -11,8 +11,6 @@ namespace Assignment3 {
 
             var model = JsonConvert.DeserializeObject<locationData>(json);
             
-            model.locations[0].
-
             return model;
         }
 

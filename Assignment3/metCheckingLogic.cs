@@ -17,7 +17,7 @@ namespace Assignment3 {
             // Unix timestamp epoch
             DateTime dtDateTime = new DateTime(1970,1,1,0,0,0,0);
            
-            dtDateTime = dtDateTime.AddMilliseconds(unixTimeStamp).ToLocalTime();
+            dtDateTime = dtDateTime.AddMilliseconds(unixTimeStamp);
          
             return dtDateTime;
         }
